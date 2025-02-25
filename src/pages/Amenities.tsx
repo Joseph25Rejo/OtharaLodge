@@ -40,7 +40,7 @@ const AnimatedSection: React.FC<{ className?: string; animation?: string; childr
 
 const Amenities = () => {
   // WhatsApp business phone number - replace with your actual number
-  const whatsappNumber = "919964814263"; // Format: country code + number without +
+  const whatsappNumber = "918431187843"; // Format: country code + number without +
   
   // Function to create WhatsApp booking link
   const createWhatsAppLink = (roomType: string, price: string) => {
