@@ -215,13 +215,16 @@ const AttractionCard: React.FC<AttractionCardProps> = ({ title, description, dis
 const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-      {/* Hero Section */}
+      {/* Fixed Header Space - Added to prevent content from being hidden under fixed headers */}
+      <div className="h-16 sm:h-20 md:h-24"></div>
+      
+      {/* Hero Section - Modified with additional padding */}
       <section className="relative overflow-hidden bg-gradient-to-r from-indigo-50 via-blue-50 to-indigo-50">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-indigo-50/50 to-blue-50/50" />
         </div>
         
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-24">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 md:py-28">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left Content */}
             <div className="space-y-6 sm:space-y-8 opacity-0 animate-[fadeInLeft_1s_ease-out_forwards]">
