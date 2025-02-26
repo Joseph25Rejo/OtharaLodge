@@ -17,6 +17,7 @@ const Navbar = () => {
 
   const navItems = [
     { name: 'Home', path: '/' },
+    { name: 'Rooms', path: '/rooms' },
     { name: 'Amenities', path: '/amenities' },
     { name: 'Gallery', path: '/gallery' },
     { name: 'Contact', path: '/contact' },
@@ -27,14 +28,14 @@ const Navbar = () => {
       scrolled ? 'bg-white/95 backdrop-blur-sm shadow-md' : 'bg-white'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20"> {/* Increased height */}
+        <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
             <Link to="/" className="flex items-center group">
               <div className="transition-transform duration-300 group-hover:scale-110">
                 <img 
                   src={logo}
                   alt="Othara Lodge"
-                  className="h-20 sm:h-20 w-auto object-contain" /* Increased height, responsive */
+                  className="h-20 sm:h-20 w-auto object-contain"
                 />
               </div>
             </Link>

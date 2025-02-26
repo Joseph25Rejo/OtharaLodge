@@ -7,6 +7,7 @@ import Amenities from './pages/Amenities';
 import Contact from './pages/Contact';
 import Booking from './pages/Booking';
 import Gallery from './pages/Gallery';
+import Rooms from './pages/Rooms';
 import './animation.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/booking" element={<Booking />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/rooms" element={<Rooms />} />
           </Routes>
         </main>
         <Footer />
