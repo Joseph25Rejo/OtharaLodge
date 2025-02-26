@@ -230,8 +230,8 @@ const Home: React.FC = () => {
             <div className="space-y-6 sm:space-y-8 opacity-0 animate-[fadeInLeft_1s_ease-out_forwards]">
               <div className="space-y-3 sm:space-y-4">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 leading-tight animate-[fadeInUp_1s_ease-out_0.2s_forwards] opacity-0">
-                  Experience Authentic
-                  <span className="text-gray-900"> Kerala</span> Hospitality
+                  Experience Kerala's
+                  <span className="text-gray-900">Cozy</span> Retreat
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl text-gray-600 animate-[fadeInUp_1s_ease-out_0.4s_forwards] opacity-0">
                   Nestled in the serene landscapes of Kerala, Othara Lodge offers a perfect blend of comfort and authenticity at budget-friendly prices.
